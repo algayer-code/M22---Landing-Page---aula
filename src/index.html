@@ -11,6 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <!-- scss -->
     <link rel="stylesheet" href="styles/main.scss">
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <!-- hero + components -->
@@ -42,8 +44,9 @@
         </div>
     </header>
 
-    <section class="event">
-        <div class="container">
+    <!-- frontend -->
+    <section class="event event--frontend" >
+        <div class="container" data-aos="fade-right">
             <div class="event__details">
                 <h2 class="event__details__title">
                     Front-end
@@ -58,10 +61,60 @@
             <img class="event__image" src="./images/frontend.png" alt="Front-end">
         </div>
     </section>
+    <!-- Ui/Ux -->
+    <section class="event event--ui-ux event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">
+                    UI/UX
+                </h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti officiis, enim quisquam minus aliquam ex cupiditate id corporis, ullam eum consequuntur voluptas veritatis tenetur rerum. Quod saepe error aliquam consequatur.
+                </p>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum cupiditate asperiores porro, perspiciatis odio laborum soluta odit ad. Corrupti, tempora. Molestiae officia accusamus vel numquam reprehenderit ipsa sint vitae inventore?
+                </p>
+            </div>
+            <img class="event__image" src="./images/ui-ux.png" alt="Ui/Ux">
+        </div>
+    </section>
+    <!-- data science -->
+    <section class="event event--data-science">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">
+                    Data Science
+                </h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti officiis, enim quisquam minus aliquam ex cupiditate id corporis, ullam eum consequuntur voluptas veritatis tenetur rerum. Quod saepe error aliquam consequatur.
+                </p>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum cupiditate asperiores porro, perspiciatis odio laborum soluta odit ad. Corrupti, tempora. Molestiae officia accusamus vel numquam reprehenderit ipsa sint vitae inventore?
+                </p>
+            </div>
+            <img class="event__image" src="./images/data.png" alt="data science">
+        </div>
+    </section>
+    <!-- backend -->
+    <section class="event event--backend event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">
+                    Back-end
+                </h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti officiis, enim quisquam minus aliquam ex cupiditate id corporis, ullam eum consequuntur voluptas veritatis tenetur rerum. Quod saepe error aliquam consequatur.
+                </p>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum cupiditate asperiores porro, perspiciatis odio laborum soluta odit ad. Corrupti, tempora. Molestiae officia accusamus vel numquam reprehenderit ipsa sint vitae inventore?
+                </p>
+            </div>
+            <img class="event__image" src="./images/backend.png" alt="backend">
+        </div>
+    </section>
 
-
-    
-
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>
